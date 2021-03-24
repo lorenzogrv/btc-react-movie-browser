@@ -1,0 +1,14 @@
+@import '../../variables';
+
+footer {
+  background: $dark;
+  color: $light;
+  text-align: center;
+  padding: $air;
+
+  img {
+    display: block;
+    max-height: 1em;
+    margin: 1ex auto;
+  }
+}

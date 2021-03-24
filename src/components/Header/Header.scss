@@ -1,0 +1,63 @@
+@import '../../variables';
+
+header {
+  padding: $air;
+  background-color: $dark;
+  color: $stand;
+
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    all: unset;
+    cursor: pointer;
+  }
+
+  figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 2em;
+      pointer-events: none;
+    }
+
+    legend {
+      margin-left: 1rem;
+      font-size: 2.5em;
+    }
+  }
+
+  menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    * {
+      margin: 0 $air;
+      padding: $air;
+    }
+
+/*
+    li {
+      list-style-type: none;
+    }
+*/
+    
+    a {
+      text-decoration: none;
+      color: $dark;
+      background-color: $stand;
+      border-radius: .2em;
+
+      transition: background-color ease .2s;
+
+      &.active, &:hover {
+        background-color: $light;
+      }
+    }
+  }
+}

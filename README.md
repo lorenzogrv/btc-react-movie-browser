@@ -53,7 +53,7 @@ mv package.tmp package.json
 
 # create-react-app produces non-compilant code, so let's fix
 npm run lint:fix
-# jest environmets pollute global scope, this must be manually fixed
+# jest environments pollute global scope, this must be manually fixed
 {
   echo "/* eslint-env jest */"
   echo
@@ -112,3 +112,8 @@ This is a bit of the content that `create-react-app` puts within the `README.md`
 
 - [Troubleshooting `npm run build` fails to minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+
+
+## Design decisions
+
+As the project consists on browsing data from [the movie database](https://themoviedb.org), I will use [their color palette](https://www.themoviedb.org/about/logos-attribution).
