@@ -1,0 +1,11 @@
+@import '../../variables';
+
+section.movies {
+  display: flex;
+  flex-flow: row wrap;
+
+  * {
+    flex: 1 15em;
+    margin: $air / 2;
+  }
+}

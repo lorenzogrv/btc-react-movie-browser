@@ -16,6 +16,7 @@ export default function Debugger (props) {
 
   return (
     <section className='debug'>
+      <h1>Debugger</h1>
       <dl>
         <dt>pathname</dt>
         <dd>

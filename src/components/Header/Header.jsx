@@ -13,7 +13,7 @@ export default function Header (props) {
         </figure>
       </NavLink>
       <menu>
-        <NavLink to='/configuration'>Configuration</NavLink>
+        {props.children}
       </menu>
     </header>
   )
