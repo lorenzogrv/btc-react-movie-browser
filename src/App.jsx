@@ -11,7 +11,7 @@ import Debugger from './containers/Debugger'
 
 import './App.scss'
 
-function App (props) {
+export default function App (props) {
   const [language, setLanguage] = React.useState('es-ES')
 
   const [configuration, setConfiguration] = React.useState(null)
@@ -89,5 +89,3 @@ function App (props) {
     </BrowserRouter>
   )
 }
-
-export default App
